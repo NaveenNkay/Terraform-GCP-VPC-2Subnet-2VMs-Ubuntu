@@ -56,7 +56,7 @@ resource "google_compute_instance" "my-linux-vm2" {
     }
   }
 
-  // Local SSD disk
+  // Local SSD disk drive
   scratch_disk {
     interface = "NVME"
   }
